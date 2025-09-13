@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Addon Forge</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      max-width: 720px;
+      margin: auto;
+      padding: 20px;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+    p.lead {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      background: #ff6a00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e65c00;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔧 The Addon Forge</h1>
+    <p class="lead">Open-source extensions & tools to make the web more useful.</p>
+    <a href="https://github.com/TheAddonForge" class="btn">⭐ Explore on GitHub</a>
+  </header>
+
+  <section>
+    <h2>📦 Projects</h2>
+    <p>We build browser extensions that help you download, organize, and use online content more effectively.  
+    Check out our latest tools for platforms like <strong>Alibaba</strong>, <strong>AliExpress</strong>, and more.</p>
+  </section>
+
+  <section>
+    <h2>❤️ Support Development</h2>
+    <p>This project is free to use. If you'd like to support ongoing development, consider buying us a coffee:</p>
+    <p><a href="https://ko-fi.com/prablordeppey" class="btn">☕ Click to Support</a></p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> The Addon Forge — Built with passion for the open web.</p>
+  </footer>
+
+  <script>
+    // auto-update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
