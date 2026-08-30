@@ -1,6 +1,23 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-52HC9KGJ");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Addon Forge — Browser Extensions</title>
@@ -122,6 +139,7 @@
         display: inline-flex;
         gap: 4px;
       }
+
       .rivets span {
         width: 6px;
         height: 6px;
@@ -129,10 +147,12 @@
         background: var(--ember);
         display: inline-block;
       }
+
       .rivets span:nth-child(2) {
         background: var(--steel);
         opacity: 0.8;
       }
+
       .rivets span:nth-child(3) {
         background: var(--ember-dim);
       }
@@ -145,6 +165,7 @@
         text-transform: uppercase;
         letter-spacing: 0.06em;
       }
+
       nav.site-links a {
         text-decoration: none;
         color: var(--text-muted);
@@ -154,6 +175,7 @@
           color 0.15s ease,
           border-color 0.15s ease;
       }
+
       nav.site-links a:hover {
         color: var(--ember);
         border-color: var(--ember);
@@ -173,6 +195,7 @@
         color: var(--ember);
         margin: 0 0 18px;
       }
+
       .eyebrow::before {
         content: "// ";
         color: var(--text-faint);
@@ -220,6 +243,7 @@
           border-color 0.15s ease,
           background 0.15s ease;
       }
+
       .btn:hover {
         transform: translateY(-1px);
       }
@@ -229,6 +253,7 @@
         border-color: var(--ember);
         color: #1a1310;
       }
+
       .btn-primary:hover {
         background: #ff7c4d;
       }
@@ -237,6 +262,7 @@
         background: transparent;
         color: var(--text-muted);
       }
+
       .btn-ghost:hover {
         color: var(--text);
         border-color: var(--text-muted);
@@ -276,6 +302,7 @@
       .category {
         margin-top: 34px;
       }
+
       .category:first-of-type {
         margin-top: 26px;
       }
@@ -309,6 +336,7 @@
           transform 0.15s ease,
           border-color 0.15s ease;
       }
+
       .tool-card:hover {
         border-color: #4a443d;
         transform: translateY(-2px);
@@ -325,9 +353,11 @@
         border-radius: 50%;
         background: var(--line);
       }
+
       .tool-card::before {
         left: 10px;
       }
+
       .tool-card::after {
         right: 10px;
       }
@@ -404,6 +434,7 @@
           border-color 0.15s ease,
           color 0.15s ease;
       }
+
       .pill:hover {
         border-color: var(--ember);
         color: var(--ember);
@@ -428,6 +459,7 @@
         align-items: center;
         gap: 10px;
       }
+
       .slot-empty .dot {
         width: 6px;
         height: 6px;
@@ -471,10 +503,12 @@
         font-size: 0.76rem;
         color: var(--text-faint);
       }
+
       footer.site a {
         color: var(--text-faint);
         text-decoration: none;
       }
+
       footer.site a:hover {
         color: var(--ember);
       }
@@ -493,12 +527,15 @@
         .hero-actions {
           animation: rise 0.5s ease both;
         }
+
         .hero h1 {
           animation-delay: 0.05s;
         }
+
         .hero p.lead {
           animation-delay: 0.1s;
         }
+
         .hero-actions {
           animation-delay: 0.15s;
         }
@@ -508,6 +545,7 @@
             opacity: 0;
             transform: translateY(8px);
           }
+
           to {
             opacity: 1;
             transform: translateY(0);
@@ -522,6 +560,7 @@
       }
     </style>
   </head>
+
   <body>
     <header class="site">
       <div class="wrap site-header-inner">
