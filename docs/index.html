@@ -6,7 +6,7 @@
     <title>The Addon Forge — Browser Extensions</title>
     <meta
       name="description"
-      content="The Addon Forge builds small, focused browser extensions. Currently: Alibaba Media Downloader Pro."
+      content="The Addon Forge builds small, focused browser extensions. Currently: Alibaba Media Downloader Pro, AliExpress Media Downloader Pro."
     />
 
     <link rel="icon" href="favicon.ico" sizes="any" />
@@ -361,6 +361,12 @@
         white-space: nowrap;
       }
 
+      .stamp.stamp-progress {
+        border-color: var(--steel);
+        color: var(--steel);
+        transform: rotate(-3deg);
+      }
+
       .tool-name {
         font-family: "Big Shoulders Display", sans-serif;
         font-weight: 700;
@@ -401,6 +407,12 @@
       .pill:hover {
         border-color: var(--ember);
         color: var(--ember);
+      }
+
+      .pill-note {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.78rem;
+        color: var(--text-faint);
       }
 
       /* ---------- Reserved / empty slot ---------- */
@@ -564,7 +576,7 @@
       <section class="block" id="extensions">
         <div class="section-head">
           <h2>The Workshop</h2>
-          <span class="section-note">1 live · more in progress</span>
+          <span class="section-note">2 live · 2 in progress</span>
         </div>
 
         <!--
@@ -606,6 +618,77 @@
               </div>
             </article>
 
+            <article class="tool-card">
+              <div class="tool-card-top">
+                <span class="tool-serial">TAF-002</span>
+                <span class="stamp">Live</span>
+              </div>
+              <h3 class="tool-name">AliExpress Media Downloader Pro</h3>
+              <p class="tool-desc">
+                Pulls the product photos and videos off an AliExpress listing
+                and packs them into a single zip — no more saving images one at
+                a time.
+              </p>
+              <div class="tool-links">
+                <a
+                  class="pill"
+                  href="https://chromewebstore.google.com/detail/aliexpress-media-download/njajbnkcmkcbojijfdolkcjaodplcoba"
+                  target="_blank"
+                  rel="noopener"
+                  >Chrome Web Store</a
+                >
+              </div>
+            </article>
+
+            <article class="tool-card">
+              <div class="tool-card-top">
+                <span class="tool-serial">TAF-003</span>
+                <!-- <span class="stamp stamp-progress">In Development</span> -->
+                <span class="stamp">Live</span>
+              </div>
+              <h3 class="tool-name">Global Sources Media Downloader Pro</h3>
+              <p class="tool-desc">
+                Pulls the product photos and videos off a Global Sources listing
+                and packs them into a single zip — no more saving images one at
+                a time.
+              </p>
+              <div class="tool-links">
+                <a
+                  class="pill"
+                  href="https://chromewebstore.google.com/detail/aliexpress-media-download/jnciegakephepdnagmofckeljfkekgnj"
+                  target="_blank"
+                  rel="noopener"
+                  >Chrome Web Store</a
+                >
+              </div>
+            </article>
+
+            <article class="tool-card">
+              <div class="tool-card-top">
+                <span class="tool-serial">TAF-004</span>
+                <!-- <span class="stamp stamp-progress">In Development</span> -->
+                <span class="stamp">Live</span>
+              </div>
+              <h3 class="tool-name">Marketplace Media Downloader</h3>
+              <p class="tool-desc">
+                Pulls product photos and videos off listings across several
+                marketplaces and packs them into a single zip — no more saving
+                images one at a time.
+              </p>
+              <div class="tool-links">
+                <!-- <span class="pill-note"
+                  >Not yet published — check back soon.</span
+                > -->
+                <a
+                  class="pill"
+                  href="https://chromewebstore.google.com/detail/aliexpress-media-download/fpgefgidaaijpidklplohbloochkdhji"
+                  target="_blank"
+                  rel="noopener"
+                  >Chrome Web Store</a
+                >
+              </div>
+            </article>
+
             <div class="slot-empty">
               <span class="dot"></span>
               Next tool is still on the bench — check back soon.
@@ -625,7 +708,7 @@
             href="https://ko-fi.com/prablordeppey"
             target="_blank"
             rel="noopener"
-            >☕ Buy a coffee</a
+            >☕ Buy us a coffee</a
           >
         </div>
       </section>
